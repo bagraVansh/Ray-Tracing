@@ -326,12 +326,7 @@ The quadratic equation $t^2 + 2(\vec{oc} \cdot \vec{D})t + (|\vec{oc}|^2 - r^2) 
 
 The camera transformation can be represented as a 4×4 matrix:
 
-$$ M_{view} = \begin{pmatrix}
-r_x & r_y & r_z & -\vec{r} \cdot \vec{pos} \\
-u_x & u_y & u_z & -\vec{u} \cdot \vec{pos} \\
--f_x & -f_y & -f_z & \vec{f} \cdot \vec{pos} \\
-0 & 0 & 0 & 1
-\end{pmatrix} $$
+$$ M_{view} = \begin{pmatrix} r_x & r_y & r_z & -\vec{r} \cdot \vec{pos} \\ u_x & u_y & u_z & -\vec{u} \cdot \vec{pos} \\ -f_x & -f_y & -f_z & \vec{f} \cdot \vec{pos} \\ 0 & 0 & 0 & 1 \end{pmatrix} $$
 
 Where $\vec{r}$, $\vec{u}$, $\vec{f}$ are the right, up, and forward vectors, and $\vec{pos}$ is the camera position.
 
