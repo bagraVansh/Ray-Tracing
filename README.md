@@ -28,6 +28,7 @@ The dot product is used for:
 - Reflection computations
 
 **Cross Product:**
+
 $$\vec{v_1} \times \vec{v_2} = \begin{pmatrix} y_1z_2 - z_1y_2 \\ z_1x_2 - x_1z_2 \\ x_1y_2 - y_1x_2 \end{pmatrix}$$
 
 Used for:
